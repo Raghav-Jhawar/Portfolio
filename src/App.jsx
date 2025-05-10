@@ -1,12 +1,14 @@
-import './App.css'
+import { useState } from 'react';
+import './App.css';
+import Board from '../public/TicTacToe/Board.jsx';
 
 function App() {
 
   return (
     <>
-      <h1>Hello World!</h1>
+      <Board />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
