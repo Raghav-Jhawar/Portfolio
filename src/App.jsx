@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import './App.css';
-import Board from '../public/TicTacToe/Board.jsx';
+import Game from './TicTacToe/Game.jsx';
 
 function App() {
 
   return (
     <>
-      <Board />
+      <Game />
     </>
   );
 }
